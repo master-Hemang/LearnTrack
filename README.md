@@ -15,3 +15,16 @@ LearnTrack is a console-based Student & Course Management System built using Cor
 ### Prerequisites
 - Java JDK 11 or higher
 
+**Set Environment Variables**
+   - Right-click "This PC" → Properties → Advanced System Settings
+   - Click "Environment Variables"
+   - Under System Variables, click "New"
+     - Variable name: `JAVA_HOME`
+     - Variable value: `C:\Program Files\Java\jdk-11.0.xx`
+   - Edit "Path" variable, add: `%JAVA_HOME%\bin`
+
+ **Verify Installation**
+   ```cmd
+   java -version
+   javac -version
+
